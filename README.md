@@ -1,4 +1,4 @@
-# GeoZarr Website
+# Geo-Embeddings Website
 
 A landing page for orientation to the [GeoZarr](https://github.com/zarr-developers/geozarr-spec) project — modular Zarr conventions for storing and accessing multidimensional georeferenced grids.
 
@@ -28,7 +28,7 @@ npm run preview   # Preview the production build locally
 ## Project Structure
 
 ```
-geozarr-site/
+geo-embeddings-site/
 ├── .vitepress/
 │   ├── config.mjs          # Site config: nav, sidebar, footer, search
 │   └── theme/
