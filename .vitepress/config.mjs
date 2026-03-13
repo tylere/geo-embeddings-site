@@ -10,7 +10,7 @@ export default defineConfig({
   },
   head: [
     ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
-    ["link", { rel: "canonical", href: "https://geoembeddings.org" }],
+    ["link", { rel: "https://geoembeddings.org" }],
     ["meta", { property: "og:title", content: "Geo-Embeddings" }],
     ["meta", { property: "og:url", content: "https://geoembeddings.org" }],
     [
@@ -28,6 +28,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Best Practices", link: "/bestpractices" },
+      { text: "Core Conventions", link: "/conventions" },
       { text: "Implementations", link: "/implementations" },
       { text: "Get Involved", link: "/get-involved" },
       { text: "FAQ", link: "/faq" },
