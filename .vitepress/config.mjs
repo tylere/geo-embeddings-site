@@ -65,7 +65,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/zarr-developers/geozarr-site",
+        link: "https://github.com/geo-embeddings/geo-embeddings-site",
       },
     ],
 
@@ -81,7 +81,7 @@ export default defineConfig({
 
     editLink: {
       pattern:
-        "https://github.com/zarr-developers/geozarr-site/edit/main/site/:path",
+        "https://github.com/geo-embeddings/geo-embeddings-site/edit/main/:path",
       text: "Edit this page on GitHub",
     },
   },
